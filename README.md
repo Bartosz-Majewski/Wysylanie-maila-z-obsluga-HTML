@@ -5,5 +5,5 @@ Program korzysta z baza danych stworzonej w ramach SQLite przechowującej inform
 
 Program korzysta z zmiennych środowiskowych. W pliku .env.dist pokazany jest szablon jak powinny wyglądać zmienne środowiskowe. Aby program działał nalęży stworzyć plik .env i dostosować zmienne środowiskowe do własnych potrzeb. Program jest dostosowany do obsługi połączeń z protokołem sieciowym SSL. W szablonie dane portu i smtp server podane zostały dla Gmail'a. W przypadku korzystania z innych serwisów pocztowych należy te zmienne ustawić tak aby były zgodne z danym serwisem pocztowym.Zmienne SENDER_EMAIL,PASSWORD powinny być usatwione na Twój login oraz hasło do poczty. Zmienna DB_NAME domyślnie nie przyjmuje wartości.Chcąc korzystać z własnej bazy danych należy w tym miejscu wpisać nazwę pliku zawierającego baze danych, z którego chce się korzytsać.
 
-Wykorzystane technologie:
+### Wykorzystane technologie:
 Python,HTML,CSS,SQLite
