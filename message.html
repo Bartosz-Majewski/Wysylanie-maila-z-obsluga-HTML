@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twoja biblioteka!</title>
+    <style>
+a {
+    text-decoration: none;
+    color:#f5f5f5
+}
+body {
+    align-items: center;
+    background: rgb(34,193,195);
+    display: flex;
+}
+
+section {
+    align-items: center;
+    background: #d8bc47;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size:sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+.line {
+    background: #5dbf9b;
+    border-radius: 5px;
+    height: 4px;
+    margin: 10px 0 50px;
+    padding:1px;
+    width: 90%;
+}
+
+.last{
+    margin-bottom:30px
+}
+.link {
+    background: #5dbf9b;
+    border-radius: 30px;
+    color: #f5f5f5;
+    padding: 8px 15px;
+    margin-top: 100px;
+
+}</style>
+</head>
+
+
+<body>
+    <section>
+    <div class="body_message">
+        <h1> Cześć {{ client_name }}! </h1>
+        <div class="line"></div>
+        <p>Czy masz jeszcze naszą książkę? Chodzi mi o "{{ book_title }}".</p>
+        <p>Pamiętaj proszę, umawialiśy się, że oddasz nam ją {{ return_at }}.</p>
+        <p class = "last">Będziemy bardzo wdzięczni jeśli oddasz nam ją w ustalonym terminie!</p>
+        <p class = "last">Jeśli chcesz przedłużyć czas wypożyczenia</p>
+        <a href="#" class="link">Kliknij tutaj!</a>
+    </div>
+</section>
+</body>
+
+</html>
